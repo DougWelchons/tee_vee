@@ -15,7 +15,7 @@ class NetworkTest < Minitest::Test
   def test_it_has_readable_attrabutes
     nbc = Network.new("NBC")
 
-    assert_equal "NBC", network.name
-    assert_equal [], network.shows
+    assert_equal "NBC", nbc.name
+    assert_equal [], nbc.shows
   end
 end
